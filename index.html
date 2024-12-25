@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeux Noël</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #FF0000, #008000);
+            color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+        h1 {
+            margin-top: 50px;
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px #FFD700;
+            animation: glow 1s infinite alternate;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 2px 2px 10px #FFD700, 0 0 20px #FFD700;
+            }
+            to {
+                text-shadow: 2px 2px 20px #FF4500, 0 0 30px #FF4500;
+            }
+        }
+        .message {
+            font-size: 1.5rem;
+            margin: 20px auto;
+            max-width: 600px;
+            text-shadow: 1px 1px 3px #000;
+        }
+        .decorations {
+            margin-top: 30px;
+        }
+        .decorations img {
+            width: 100px;
+            margin: 10px;
+            animation: bounce 2s infinite alternate;
+        }
+        @keyframes bounce {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-20px);
+            }
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 1rem;
+            text-shadow: 1px 1px 3px #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎄 Joyeux Noël ! 🎁</h1>
+    <p class="message">
+        Que la magie de Noël remplisse votre cœur de joie et votre foyer de bonheur.<br>
+        Passez des moments inoubliables avec vos proches ! 💖
+    </p>
+    <div class="decorations">
+        <img src="https://img.icons8.com/emoji/96/christmas-tree-emoji.png" alt="Sapin de Noël">
+        <img src="https://img.icons8.com/emoji/96/santa-claus-emoji.png" alt="Père Noël">
+        <img src="https://img.icons8.com/emoji/96/snowman-emoji.png" alt="Bonhomme de neige">
+        <img src="https://img.icons8.com/emoji/96/gift-emoji.png" alt="Cadeau">
+    </div>
+    <footer>
+        © 2024 - Vos vœux de Noël. Fait avec ❤️ pour les fêtes !
+    </footer>
+</body>
+</html>
+
